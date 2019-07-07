@@ -230,4 +230,8 @@ body {
     .showCaseHeading .text-right {
         text-align: center!important;
     }
+    .showCaseHeading h4 {
+        font-size: 18px;
+        font-weight: normal;
+    }
 }
