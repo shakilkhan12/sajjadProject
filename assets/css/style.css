@@ -203,4 +203,11 @@ body {
     #boxes .box {
         margin-top: 10px;
     }
+
+    .showCaseHeading .text-left {
+        text-align: center!important;
+    }
+    .showCaseHeading .text-right {
+        text-align: center!important;
+    }
 }
