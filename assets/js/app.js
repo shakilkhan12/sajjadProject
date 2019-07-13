@@ -6,7 +6,7 @@ $(window).load(function(){
    });
 
 const animatedSearch = () => {
-const searchbtn     = document.querySelector('.clickSearch');
+const searchbtn     = dogcument.querySelector('.clickSearch');
 const searchSection = document.querySelector("#search__section");
 const searchClose   = document.querySelector('.search__close');
       searchbtn.addEventListener("click", () => {
