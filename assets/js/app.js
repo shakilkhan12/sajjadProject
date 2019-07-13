@@ -1,4 +1,11 @@
 
+
+$(window).load(function(){
+        const loader = document.getElementById("loader");
+        loader.style.opacity = "0";
+        loader.style.zIndex = "0";
+   });
+
 const animatedSearch = () => {
 const searchbtn     = document.querySelector('.clickSearch');
 const searchSection = document.querySelector("#search__section");
@@ -21,15 +28,15 @@ const searchClose   = document.querySelector('.search__close');
 
         // loader function
 
-        const runLoader = () => {
+        // const runLoader = () => {
 
-                const loader = document.getElementById("loader");
-                setTimeout(() => {
-                     loader.style.opacity = "0";
-                     loader.style.zIndex = "0";   
-                }, 3000);
+        //         const loader = document.getElementById("loader");
+        //         setTimeout(() => {
+        //              loader.style.opacity = "0";
+        //              loader.style.zIndex = "0";   
+        //         }, 3000);
 
-        }
+        // }
 
-        runLoader();
+        // runLoader();
         animatedSearch();
