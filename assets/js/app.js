@@ -2,8 +2,7 @@
 
 $(window).load(function(){
         const loader = document.getElementById("loader");
-        loader.style.opacity = "0";
-        loader.style.zIndex = "0";
+        $('#loader').fadeOut();
    });
 
 const animatedSearch = () => {
